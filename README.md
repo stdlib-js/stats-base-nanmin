@@ -153,7 +153,7 @@ var v = nanmin.ndarray( N, x, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dnanmin`][@stdlib/stats/strided/dnanmin], [`snanmin`][@stdlib/stats/base/snanmin], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmin`][@stdlib/stats/strided/dnanmin], [`snanmin`][@stdlib/stats/strided/snanmin], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -203,7 +203,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats-strided/dnanmin`][@stdlib/stats/strided/dnanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/min`][@stdlib/stats/base/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmax`][@stdlib/stats/base/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats-base/snanmin`][@stdlib/stats/base/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/snanmin`][@stdlib/stats/strided/snanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array, ignoring NaN values.</span>
 
 </section>
 
@@ -293,7 +293,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax
 
-[@stdlib/stats/base/snanmin]: https://github.com/stdlib-js/stats-base-snanmin
+[@stdlib/stats/strided/snanmin]: https://github.com/stdlib-js/stats-strided-snanmin
 
 <!-- </related-links> -->
 
