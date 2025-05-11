@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-05-11)
+
+<section class="features">
+
+### Features
+
+-   [`abf915b`](https://github.com/stdlib-js/stdlib/commit/abf915b04d2dfeb22216adbc64a043f7d35721c5) - add support for accessor arrays and refactor `stats/base/nanmin` [(#6973)](https://github.com/stdlib-js/stdlib/pull/6973)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`abf915b`](https://github.com/stdlib-js/stdlib/commit/abf915b04d2dfeb22216adbc64a043f7d35721c5) - **feat:** add support for accessor arrays and refactor `stats/base/nanmin` [(#6973)](https://github.com/stdlib-js/stdlib/pull/6973) _(by Gururaj Gurram, Athan Reines)_
 -   [`ce0db06`](https://github.com/stdlib-js/stdlib/commit/ce0db0686f8e0fb2c3c32df5a12058731aed3aa8) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`6050514`](https://github.com/stdlib-js/stdlib/commit/6050514b3f4b296931f4f614b56343fecc48ccda) - **refactor:** update paths _(by Aayush Khanna)_
 
@@ -25,9 +36,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
+-   Gururaj Gurram
 
 </section>
 
